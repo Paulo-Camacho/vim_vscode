@@ -1,5 +1,5 @@
 {
-  "editor.formatOnSave": true,
+  "editor.formatOnSave": true, // Based
   "editor.suggest.insertMode": "replace",
   "terminal.integrated.fontFamily": "MesloLGS NF",
   "editor.linkedEditing": true,
