@@ -1,30 +1,18 @@
 [
-  // Main nav settings 
-  {
-    "key": "ctrl+shift+a", // Comment block
-    "command": "workbench.action.terminal.focusNext",
-    "when": "terminalFocus"
-  },
   {
     "key": "ctrl+shift+b",
     "command": "workbench.action.terminal.focusPrevious",
     "when": "terminalFocus"
   },
   {
-    "key": "ctrl+shift+t",
+    "key": "ctrl+shift+t", 
     "command": "workbench.action.togglePanel"
-  },
-  {
-    "key": "ctrl+shift+n",
-    "command": "workbench.action.terminal.new",
-    "when": "terminalFocus"
   },
   {
     "key": "ctrl+shift+w",
     "command": "workbench.action.terminal.kill",
     "when": "terminalFocus"
   },
-  // Explorer setting 
   {
     "command": "workbench.action.toggleSidebarVisibility",
     "key": "ctrl+e"
@@ -45,32 +33,20 @@
     "when": "filesExplorerFocus && !inputFocus"
   },
   {
-    "key": "shift+n",
-    "command": "explorer.newFolder",
-    "when": "explorerViewletFocus"
-  },
-  {
-    "key": "shift+n",
-    "command": "workbench.action.newWindow",
-    "when": "!explorerViewletFocus"
-  },
-  {
     "command": "deleteFile",
     "key": "d",
     "when": "filesExplorerFocus && !inputFocus"
   },
-
-  // Misc 
-  {
-    "key": "ctrl+shift+5",
-    "command": "editor.emmet.action.matchTag"
-  },
-  {
-    "key": "ctrl+z",
-    "command": "workbench.action.toggleZenMode"
-  }
   {
     "key": "ctrl+r",
-    "command": "workbench.action.debug.start" // This will debug current project
+    "command": "workbench.action.debug.start" 
+  },
+  {
+    "key": "ctrl+c",
+    "command": "editor.action.clipboardCopyAction"
+  },
+  {
+    "key": "ctrl+p",
+    "command": "editor.action.clipboardPasteAction" 
   }
 ]
