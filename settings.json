@@ -7,12 +7,16 @@
   "window.zoomLevel": 0,
   "launch": {},
   "[json]": {},
-  "workbench.iconTheme": "material-icon-theme",
   "update.showReleaseNotes": false,
-  "zenMode.hideLineNumbers": false,
   "editor.lineNumbers": "relative",
   "vim.leader": "<Space>",
   "vim.hlsearch": true,
+  "workbench.sideBar.location": "right",
+  "workbench.colorTheme": "Dark Rose",
+  "editor.fontLigatures": false,
+  "editor.fontVariations": false,
+  "redhat.telemetry.enabled": false,
+  "cmake.configureOnOpen": true,
   "vim.normalModeKeyBindingsNonRecursive": [
     {
       "before": [
@@ -210,20 +214,4 @@
       ]
     }
   ],
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "go.toolsManagement.autoUpdate": true,
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "workbench.sideBar.location": "right",
-  "workbench.colorTheme": "Dark Rose",
-  "editor.fontLigatures": false,
-  "editor.fontVariations": false,
-  "redhat.telemetry.enabled": false,
-  "cmake.configureOnOpen": true
 }

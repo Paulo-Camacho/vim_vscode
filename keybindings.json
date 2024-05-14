@@ -5,7 +5,7 @@
     "when": "terminalFocus"
   },
   {
-    "key": "ctrl+shift+t", 
+    "key": "ctrl+shift+t",
     "command": "workbench.action.togglePanel"
   },
   {
@@ -14,8 +14,8 @@
     "when": "terminalFocus"
   },
   {
+    "key": "ctrl+e",
     "command": "workbench.action.toggleSidebarVisibility",
-    "key": "ctrl+e"
   },
   {
     "command": "workbench.files.action.focusFilesExplorer",
@@ -28,25 +28,11 @@
     "when": "filesExplorerFocus && !inputFocus"
   },
   {
-    "command": "renameFile",
-    "key": "r",
-    "when": "filesExplorerFocus && !inputFocus"
-  },
-  {
-    "command": "deleteFile",
-    "key": "d",
-    "when": "filesExplorerFocus && !inputFocus"
+    "key": "ctrl+/",
+    "command": "editor.action.commentLine"
   },
   {
     "key": "ctrl+r",
-    "command": "workbench.action.debug.start" 
+    "command": "extension.vim_ctrl+r"
   },
-  {
-    "key": "ctrl+c",
-    "command": "editor.action.clipboardCopyAction"
-  },
-  {
-    "key": "ctrl+p",
-    "command": "editor.action.clipboardPasteAction" 
-  }
 ]
