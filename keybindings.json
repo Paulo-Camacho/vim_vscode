@@ -1,10 +1,5 @@
 [
   {
-    "key": "ctrl+shift+b",
-    "command": "workbench.action.terminal.focusPrevious",
-    "when": "terminalFocus"
-  },
-  {
     "key": "ctrl+shift+t",
     "command": "workbench.action.togglePanel"
   },
@@ -22,11 +17,18 @@
     "key": "ctrl+e",
     "when": "editorTextFocus"
   },
+  // file explorer setttings
   {
     "key": "n",
     "command": "explorer.newFile",
     "when": "filesExplorerFocus && !inputFocus"
   },
+  {
+    "command": "renameFile",
+    "key": "r",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  // general workflow
   {
     "key": "ctrl+/",
     "command": "editor.action.commentLine"

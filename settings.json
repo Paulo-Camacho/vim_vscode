@@ -1,10 +1,9 @@
 {
   "editor.formatOnSave": true,
   "editor.suggest.insertMode": "replace",
-  "terminal.integrated.fontFamily": "MesloLGS NF",
   "editor.linkedEditing": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "window.zoomLevel": 0,
+  "window.zoomLevel": 0.75,
   "launch": {},
   "[json]": {},
   "update.showReleaseNotes": false,
@@ -12,12 +11,15 @@
   "vim.leader": "<Space>",
   "vim.hlsearch": true,
   "workbench.sideBar.location": "right",
-  "workbench.colorTheme": "Dark Rose",
   "editor.fontLigatures": false,
   "editor.fontVariations": false,
   "redhat.telemetry.enabled": false,
   "cmake.configureOnOpen": true,
+  "window.menuBarVisibility": "toggle",
+  "editor.minimap.enabled": false,
+  "workbench.activityBar.location": "hidden",
   "vim.normalModeKeyBindingsNonRecursive": [
+    // emulated Vim navigation ie swapping between buffers`
     {
       "before": [
         "<S-h>"
@@ -34,6 +36,7 @@
         ":bnext"
       ]
     },
+    // splits
     {
       "before": [
         "leader",
@@ -52,6 +55,7 @@
         ":split"
       ]
     },
+    // panes
     {
       "before": [
         "leader",
@@ -88,6 +92,7 @@
         "workbench.action.focusRightGroup"
       ]
     },
+    // general 
     {
       "before": [
         "leader",
@@ -172,6 +177,7 @@
     }
   ],
   "vim.visualModeKeyBindings": [
+    // Stay in visual mode while indenting
     {
       "before": [
         "<"
@@ -188,6 +194,7 @@
         "editor.action.indentLines"
       ]
     },
+    // move selected lines while staying in visual mode
     {
       "before": [
         "J"
@@ -204,6 +211,7 @@
         "editor.action.moveLinesUpAction"
       ]
     },
+    // toggle comment selection
     {
       "before": [
         "leader",
