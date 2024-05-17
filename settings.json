@@ -1,9 +1,10 @@
 {
-  "editor.formatOnSave": true,
+  "vim.useSystemClipboard": true,
+  // "editor.formatOnSave": true,
+  "window.zoomLevel": 1.0,
   "editor.suggest.insertMode": "replace",
   "editor.linkedEditing": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "window.zoomLevel": 0.75,
   "launch": {},
   "[json]": {},
   "update.showReleaseNotes": false,
