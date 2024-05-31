@@ -1,5 +1,9 @@
 {
   "vim.useSystemClipboard": true,
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontSize": 16, // Adjust the font size as desired
+  "editor.fontWeight": "normal", // You can also set this to "bold" or other supported values
+  "editor.renderWhitespace": "all",
   // "editor.formatOnSave": true,
   "window.zoomLevel": 1.0,
   "editor.suggest.insertMode": "replace",
@@ -18,7 +22,6 @@
   "cmake.configureOnOpen": true,
   "window.menuBarVisibility": "toggle",
   "editor.minimap.enabled": false,
-  "workbench.activityBar.location": "hidden",
   "vim.normalModeKeyBindingsNonRecursive": [
     // emulated Vim navigation ie swapping between buffers`
     {
@@ -223,4 +226,10 @@
       ]
     }
   ],
+  "cmake.showOptionsMovedNotification": false,
+  "cmake.pinnedCommands": [
+    "workbench.action.tasks.configureTaskRunner",
+    "workbench.action.tasks.runTask"
+  ],
+  "workbench.colorTheme": "Catppuccin Mocha",
 }
