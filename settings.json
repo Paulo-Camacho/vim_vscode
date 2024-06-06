@@ -1,7 +1,7 @@
 {
   "vim.useSystemClipboard": true,
   "editor.fontFamily": "Bitstream Vera Sans Mono, Consolas, 'Courier New', monospace",
-  "editor.fontSize": 16,
+  "editor.fontSize": 18,
   "editor.renderWhitespace": "all",
   "window.zoomLevel": 1,
   "editor.suggest.insertMode": "replace",
