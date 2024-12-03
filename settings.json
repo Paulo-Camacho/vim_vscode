@@ -1,15 +1,36 @@
 {
-
+    "window.titleBarStyle": "custom",  
+    "window.menuBarVisibility": "toggle",
+    "editor.lineNumbers": "relative",
+    "editor.fontSize": 15,
+    "vim.useSystemClipboard": true,
+    "vim.highlightedyank.enable": true,
+    "vim.highlightedyank.color": "rgba(250, 240, 170, 0.5)",
     "workbench.colorTheme": "Visual Studio Light",
+
+    "security.workspace.trust.untrustedFiles": "open",
+    "cmake.showOptionsMovedNotification": false,
+    "editor.suggest.insertMode": "replace",
+    "launch": {},
+    "[json]": {},
+    "update.showReleaseNotes": false,
+    "vim.leader": "<Space>",
+    "vim.hlsearch": true,
+    "workbench.sideBar.location": "left",
+    "editor.fontVariations": false,
+    "redhat.telemetry.enabled": false,
+    "cmake.configureOnOpen": true,
+    "editor.minimap.enabled": false,
+    "git.openRepositoryInParentFolders": "never",
+    "editor.fontLigatures": true,
+    "files.insertFinalNewline": true,
+
+    "C_Cpp.default.cppStandard": "c++20",
     "cmake.pinnedCommands": [
         "workbench.action.tasks.configureTaskRunner",
         "workbench.action.tasks.runTask"
     ],
-    "cmake.showOptionsMovedNotification": false,
-    "editor.lineNumbers": "relative",
-    "editor.minimap.enabled": false,
-    "window.menuBarVisibility": "toggle",
-    "editor.fontSize": 15,
-    "vim.useSystemClipboard": true
+    
 
 }
+
